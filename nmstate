@@ -1,0 +1,215 @@
+IDRAC :- 172.17.178.122
+
+interfaces:
+- name: bond0
+  type: bond
+  state: up
+  ipv4:
+    address:
+    - ip: 172.16.178.122
+      prefix-length: 24
+    enabled: true
+  link-aggregation:
+    mode: active-backup
+    port:
+    - ens3f0np0
+    - ens3f1np1
+dns-resolver:
+  config:
+    server:
+    - 100.64.0.111
+routes:
+  config:
+  - destination: 0.0.0.0/0
+    next-hop-address: 172.16.178.1
+    next-hop-interface: bond0
+	
+	
+9C:63:C0:24:AE:00   ------  ens3f0np0
+9C:63:C0:24:AE:01   ------  ens3f1np1
+
+IDRAC WORKER :- .123
+
+interfaces:
+- name: bond0
+  type: bond
+  state: up
+  ipv4:
+    address:
+    - ip: 172.16.178.123
+      prefix-length: 24
+    enabled: true
+  link-aggregation:
+    mode: active-backup
+    port:
+    - enp129s0f0np0
+    - ens129s0f1np1
+dns-resolver:
+  config:
+    server:
+    - 100.64.0.111
+routes:
+  config:
+  - destination: 0.0.0.0/0
+    next-hop-address: 172.16.178.1
+    next-hop-interface: bond0
+	
+	
+04:3F:72:E0:94:98 ---- ens3f0np0
+04:3F:72:E0:94:99 ---- ens3f1np1
+
+IDRAC WORKER :- .124
+	
+interfaces:
+- name: bond0
+  type: bond
+  state: up
+  ipv4:
+    address:
+    - ip: 172.16.178.124
+      prefix-length: 24
+    enabled: true
+  link-aggregation:
+    mode: active-backup
+    port:
+    - enp129s0f0np0
+    - ens129s0f1np1
+dns-resolver:
+  config:
+    server:
+    - 100.64.0.111
+routes:
+  config:
+  - destination: 0.0.0.0/0
+    next-hop-address: 172.16.178.1
+    next-hop-interface: bond0
+	
+04:3F:72:E0:98:50  --- ens3f0np0
+04:3F:72:E0:98:51  --- ens3f1np1
+
+IDRAC WORKER :- .65
+
+interfaces:
+- name: bond0
+  type: bond
+  state: up
+  ipv4:
+    address:
+    - ip: 172.16.178.65
+      prefix-length: 24
+    enabled: true
+  link-aggregation:
+    mode: active-backup
+    port:
+    - enp157s0f0np0
+    - enp157s0f1np1
+dns-resolver:
+  config:
+    server:
+    - 100.64.0.111
+routes:
+  config:
+  - destination: 0.0.0.0/0
+    next-hop-address: 172.16.178.1
+    next-hop-interface: bond0
+	
+5C:25:73:5A:54:24 -- ens31f0np0
+5C:25:73:5A:54:25 -- ens31f1np1
+
+IDRAC WORKER :- .66
+
+interfaces:
+- name: bond0
+  type: bond
+  state: up
+  ipv4:
+    address:
+    - ip: 172.16.178.66
+      prefix-length: 24
+    enabled: true
+  link-aggregation:
+    mode: active-backup
+    port:
+    - enp129s0f0np0
+    - ens129s0f1np1
+dns-resolver:
+  config:
+    server:
+    - 100.64.0.111
+routes:
+  config:
+  - destination: 0.0.0.0/0
+    next-hop-address: 172.16.178.1
+    next-hop-interface: bond0
+
+
+5C:25:73:5A:34:AC ---  ens31f0np0
+5C:25:73:5A:34:AD ---  ens31f1np1
+
+IDRAC WORKER :- .67
+
+
+interfaces:
+- name: bond0
+  type: bond
+  state: up
+  ipv4:
+    address:
+    - ip: 172.16.178.67
+      prefix-length: 24
+    enabled: true
+  link-aggregation:
+    mode: active-backup
+    port:
+    - enp157s0f0np0
+    - enp157s0f1np1
+dns-resolver:
+  config:
+    server:
+    - 100.64.0.111
+routes:
+  config:
+  - destination: 0.0.0.0/0
+    next-hop-address: 172.16.178.1
+    next-hop-interface: bond0
+	
+	
+	5C:25:73:5A:1F:72  --- ens31f0np0
+	5C:25:73:5A:1F:73 --- ens31f1np1
+
+IDRAC WORKER :- .68
+
+interfaces:
+- name: bond0
+  type: bond
+  state: up
+  ipv4:
+    address:
+    - ip: 172.16.178.68
+      prefix-length: 24
+    enabled: true
+  link-aggregation:
+    mode: active-backup
+    port:
+    - enp157s0f0np0
+    - enp157s0f1np1
+dns-resolver:
+  config:
+    server:
+    - 100.64.0.111
+routes:
+  config:
+  - destination: 0.0.0.0/0
+    next-hop-address: 172.16.178.1
+    next-hop-interface: bond0
+	
+	5C:25:73:5A:1D:12 --- ens31f0np0
+	5C:25:73:5A:1D:13 --- ens31f1np1
+
+
+
+
+
+
+
+	
