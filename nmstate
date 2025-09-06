@@ -17,7 +17,7 @@ interfaces:
 dns-resolver:
   config:
     server:
-    - 100.64.0.111
+    - 100.83.167.11
 routes:
   config:
   - destination: 0.0.0.0/0
@@ -42,12 +42,12 @@ interfaces:
   link-aggregation:
     mode: active-backup
     port:
-    - enp129s0f0np0
-    - ens129s0f1np1
+    - ens3f0np0
+    - ens3f1np1
 dns-resolver:
   config:
     server:
-    - 100.64.0.111
+    - 100.83.167.11
 routes:
   config:
   - destination: 0.0.0.0/0
@@ -72,12 +72,12 @@ interfaces:
   link-aggregation:
     mode: active-backup
     port:
-    - enp129s0f0np0
-    - ens129s0f1np1
+    - ens3f0np0
+    - ens3f1np1
 dns-resolver:
   config:
     server:
-    - 100.64.0.111
+    - 100.83.167.11
 routes:
   config:
   - destination: 0.0.0.0/0
@@ -106,7 +106,7 @@ interfaces:
 dns-resolver:
   config:
     server:
-    - 100.64.0.111
+    - 100.83.167.11
 routes:
   config:
   - destination: 0.0.0.0/0
@@ -135,7 +135,7 @@ interfaces:
 dns-resolver:
   config:
     server:
-    - 100.64.0.111
+    - 100.83.167.11
 routes:
   config:
   - destination: 0.0.0.0/0
@@ -166,7 +166,7 @@ interfaces:
 dns-resolver:
   config:
     server:
-    - 100.64.0.111
+    - 100.83.167.11
 routes:
   config:
   - destination: 0.0.0.0/0
@@ -196,7 +196,7 @@ interfaces:
 dns-resolver:
   config:
     server:
-    - 100.64.0.111
+    - 100.83.167.11
 routes:
   config:
   - destination: 0.0.0.0/0
