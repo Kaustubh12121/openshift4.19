@@ -101,8 +101,8 @@ interfaces:
   link-aggregation:
     mode: active-backup
     port:
-    - enp157s0f0np0
-    - enp157s0f1np1
+    - ens31f0np0
+    - ens31f1np1
 dns-resolver:
   config:
     server:
@@ -130,8 +130,8 @@ interfaces:
   link-aggregation:
     mode: active-backup
     port:
-    - enp129s0f0np0
-    - ens129s0f1np1
+    - ens31f0np0
+    - ens31f1np1
 dns-resolver:
   config:
     server:
@@ -161,8 +161,8 @@ interfaces:
   link-aggregation:
     mode: active-backup
     port:
-    - enp157s0f0np0
-    - enp157s0f1np1
+    - ens31f0np0
+    - ens31f1np1
 dns-resolver:
   config:
     server:
@@ -191,8 +191,8 @@ interfaces:
   link-aggregation:
     mode: active-backup
     port:
-    - enp157s0f0np0
-    - enp157s0f1np1
+    - ens31f0np0
+    - ens31f1np1
 dns-resolver:
   config:
     server:
